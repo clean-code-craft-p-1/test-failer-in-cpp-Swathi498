@@ -19,7 +19,7 @@ namespace TShirtsSizeTests {
 void TestTShirtsSize()
 {
     assert(TShirtsSize::size(37) == 'S');
-    assert(TShirtsSize::size(38) == 'S');
+    assert(TShirtsSize::size(38) == 'M');
     assert(TShirtsSize::size(40) == 'M');
     assert(TShirtsSize::size(42) == 'M');
     assert(TShirtsSize::size(43) == 'L');
